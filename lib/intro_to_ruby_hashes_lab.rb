@@ -7,7 +7,7 @@ def my_hash
 end
 
 def pioneer
-  return Hash.new { :name => "Grace Hopper" }
+  { :name => "Grace Hopper" }
 end
 
 
